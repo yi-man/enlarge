@@ -1,0 +1,38 @@
+{
+  "name": "test",
+  "description": "测试grunt的基本用法",
+  "homepage": "http://www.jianshu.com/users/96d96f0cecf2/latest_articles",
+  "version": "0.1.0",
+  "author": {
+    "name": "许鑫"
+  },
+  "repository": {
+    "type": "svn"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.jianshu.com/users/96d96f0cecf2/latest_articles"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-cmd-transport": "~0.3.0",
+    "grunt-cmd-concat": "*",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-less": "*",
+    "grunt": "~0.4.1"
+  }
+}
+
+
+

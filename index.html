@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>enlarge</title>
+	<link rel="stylesheet" href="dist/css/base.min.css">
+</head>
+<body>
+	<div class="block">
+		<ul>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+		</ul>
+	</div>
+
+	<!-- <div id="xxoverlay">
+		<div id="xxbox"></div>
+	</div> -->
+<script src="dist/basejs/base.min.js"></script>
+<script src="dist/basejs/seajs.min.js"></script>
+<script>
+	seajs.config({
+		// base: "/test/grunt/enlarge",
+		debug: false,
+		charset: 'utf-8',
+		timeout: 30000,
+		map: [
+	    	[ /^(.*\.(?:css|js))(.*)$/i, '$1?20141107' ]
+	  	]
+	});
+	seajs.use(["./dist/appjs/main/main"]);
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>enlarte</title>
+	<link rel="stylesheet" href="res/css/basecss/normalize.css">
+	<link rel="stylesheet" href="res/css/basecss/base.css">
+
+</head>
+<body>
+	<div class="block">
+		<ul>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+			<li class="li"></li>
+		</ul>
+	</div>
+
+	<div class="overlay">
+		<div class="box" id="pre"></div>
+	</div>
+
+<script src="res/js/basejs/jquery.js"></script>
+<!-- <script src="res/js/modulejs/enlarge/enlarge.js"></script> -->
+<script src="res/js/basejs/sea.js"></script>
+<script src="res/js/basejs/seastyle.js"></script>
+<script src="res/js/basejs/seajstext.js"></script>
+<!-- <script src="res/js/appjs/main/main.js"></script> -->
+<script>
+	seajs.config({
+		base: "./res/js/modulejs",
+		debug: true,  // 调试模式
+		charset: 'utf-8',
+		timeout: 30000
+	});
+	seajs.use(["./res/js/appjs/main/main"]);
+</script>
+</body>
+</html>
